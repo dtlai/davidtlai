@@ -74,6 +74,7 @@ a {
     transition: all .3s ease-in-out;
 }
 
+
 h1,
 h2,
 h3,
@@ -304,6 +305,11 @@ a img.aligncenter {
 /*------------------------------------------------------------------
     HEADER
 -------------------------------------------------------------------*/
+
+.container > .about-me-container > .about-links {
+    color: white;
+    display: flex;
+}
 
 .navbar-dark{
 	
