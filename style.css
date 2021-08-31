@@ -1515,6 +1515,7 @@ hr.invis1 {
 	opacity: .6;
 	-webkit-transform: translateY(0);
 	transform: translateY(0);
+    cursor: pointer;
 }
 
 
