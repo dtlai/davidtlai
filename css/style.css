@@ -235,6 +235,58 @@
 					width: auto;
 				}
 
+	/* tab stuff */
+
+	.tablinks {
+		font-size: 1.2em; 
+		font-family: 'Source Sans Pro', sans-serif;
+	}
+
+	.tab {
+		overflow: hidden;
+		border: 1px solid #ccc;
+		background-color: #f1f1f1;
+	}
+
+	/* Style the buttons that are used to open the tab content */
+	.tab button {
+		background-color: inherit;
+		float: left;
+		border: none;
+		outline: none;
+		cursor: pointer;
+		padding: 14px 16px;
+		transition: 0.3s;
+	}
+
+	/* Change background color of buttons on hover */
+	.tab button:hover {
+		background-color: #ddd;
+	}
+
+	/* Create an active/current tablink class */
+	.tab button.active {
+		background-color: #ccc;
+	}
+
+	/* Style the tab content */
+	.tabcontent {
+		display: none;
+		padding: 6px 12px;
+		border: 1px solid #ccc;
+		border-top: none;
+	}
+
+	.tabcontent {
+		animation: fadeEffect 1s; /* Fading effect takes 1 second */
+	}
+
+		/* Go from zero to full opacity */
+	@keyframes fadeEffect {
+		from {opacity: 0;}
+		to {opacity: 1;}
+	}
+
 	/* Lists */
 
 		ul.default
@@ -971,6 +1023,13 @@
 			left: 0;
 			top: 0;
 		}
+
+			#logo .image img 
+			{
+				height: 60px;
+				width: 100%;
+				object-fit: cover;
+			}
 	
 	#nav
 	{
@@ -1084,11 +1143,38 @@
 			background: #fff;
 			padding-top: 0;
 		}
+
+		/* .container_small {
+			display: flex;
+			text-align: left;
+			line-height: 1em;
+			padding-right: 40px;
+		}
+
+			.container_small > p {
+				font-size: 0.4em;
+			} */
+
+
+			.container_small > img {
+				height: 400px;
+				width: 100%;
+				object-fit: cover;
+				margin-top: 40px;
+			}
 	
 			#main > section.one .image.featured
 			{
-				margin-bottom: 3em;
+				/* margin-bottom: 3em; */
 			}
+
+			#main > section.one .image.featured > img
+			{
+				
+			}
+
+			
+
 	
 		#main > section.two
 		{
