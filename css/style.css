@@ -1149,7 +1149,7 @@
 			text-align: left;
 			line-height: 1em;
 			margin-left: 40px;
-			margin-top: 20px;
+			margin-top: 100px;
 			/* padding-right: 40px; */
 			/* margin-top: 40px; */
 		}
@@ -1162,13 +1162,13 @@
 				font-size: 0.8em;
 				padding: 0%;
 				margin-bottom: .5em;
+				columns: 2;
+				-webkit-columns: 2;
+				-moz-columns: 2;
+				list-style-type: circle;
+				margin-left: 20px;
 			}
 
-			.container_small > header > li{
-				font-size: 0.7em;
-				padding: 0%;
-				margin: 0%;
-			}
 
 			.container_small > header > p {
 				font-size: 0.8em;
@@ -1177,11 +1177,11 @@
 
 
 			.container_small > img {
-				height: 300px;
+				height: 400px;
 				width: 100%;
 				object-fit: cover;
 				margin-right: 20px;
-				margin-top: 60px;
+				/* margin-top: 60px; */
 			}
 	
 			#main > section.one .image.featured
