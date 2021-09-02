@@ -305,6 +305,10 @@
 		flex-direction: row-reverse;
 	}
 
+	.resume-button {
+		border-bottom: none;
+	}
+
 	/* .contact-buttons ul.icons a:hover {
 		background-color: white;
 		color: #E27689;
