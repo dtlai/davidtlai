@@ -284,11 +284,17 @@
 
 	.contact-buttons ul li a {
 		display: flex;
+		color: #fff;
+    	background-color: #acb4b9;
+	}
+
+	.contact-buttons ul li a:hover {
+		color: #E27689;
+		background-color: #fff;
 	}
 
 	.contact-buttons ul li a p {
 		display: flex;
-		margin-right: 5px;
 	}
 
 	.contact-buttons ul.icons a {
@@ -299,9 +305,11 @@
 		flex-direction: row-reverse;
 	}
 
-	.contact-buttons ul.icons a:hover {
+	/* .contact-buttons ul.icons a:hover {
 		background-color: white;
-	}
+		color: #E27689;
+	} */
+
 
 	.container.small > p {
 		margin-bottom: 10px;
@@ -309,6 +317,11 @@
 
 	.icons p {
 		margin-bottom: 0px;
+	}
+
+
+	.contact-container {
+		background-color: white;
 	}
 
 
@@ -339,6 +352,13 @@
 	@keyframes fadeEffect {
 		from {opacity: 0;}
 		to {opacity: 1;}
+	}
+
+	#Work_Experience {
+		background-color: white;
+	}
+	#Education {
+		background-color: white;
 	}
 
 	/* Lists */
