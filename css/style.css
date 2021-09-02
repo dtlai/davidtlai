@@ -533,7 +533,7 @@
 		{
 			box-shadow: 0 0.05em 0.15em 0 rgba(0,0,0,0.05);
 			margin-bottom: 40px;
-			display: flex;
+			/* display: flex; */
 		}
 
 		.item > a > img {
@@ -543,7 +543,7 @@
 		
 			.item header
 			{
-				width: 70%;
+				/* width: 80%; */
 				background: #fff;
 				margin: 0;
 				padding: 1em 0 1em 0;
