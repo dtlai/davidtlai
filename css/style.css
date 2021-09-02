@@ -1267,6 +1267,7 @@
 
 		.img-container {
 			position: relative;
+			margin-top: 20px;
 			display: block;
 		}
 
