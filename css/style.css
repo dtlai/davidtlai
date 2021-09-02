@@ -269,6 +269,14 @@
 		transition: 0.3s;
 	}
 
+	.work-exp-card {
+		text-align: left;
+	}
+
+	.education-card {
+		text-align: left;
+	}
+
 	/* Change background color of buttons on hover */
 	.tab button:hover {
 		background-color: #ddd;
