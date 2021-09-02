@@ -277,6 +277,42 @@
 		text-align: left;
 	}
 
+	.contact-buttons {
+		display: flex;
+		justify-content: center;
+	}
+
+	.contact-buttons ul li a {
+		display: flex;
+	}
+
+	.contact-buttons ul li a p {
+		display: flex;
+		margin-right: 5px;
+	}
+
+	.contact-buttons ul.icons a {
+		width: auto;
+		border: 1px solid gray;
+		padding: 0 4px 0 4px;
+		border-radius: 4px;
+		flex-direction: row-reverse;
+	}
+
+	.contact-buttons ul.icons a:hover {
+		background-color: white;
+	}
+
+	.container.small > p {
+		margin-bottom: 10px;
+	}
+
+	.icons p {
+		margin-bottom: 0px;
+	}
+
+
+
 	/* Change background color of buttons on hover */
 	.tab button:hover {
 		background-color: #ddd;
