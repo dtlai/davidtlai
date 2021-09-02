@@ -533,10 +533,17 @@
 		{
 			box-shadow: 0 0.05em 0.15em 0 rgba(0,0,0,0.05);
 			margin-bottom: 40px;
+			display: flex;
+		}
+
+		.item > a > img {
+			height: 100%;
+    		object-fit: cover;
 		}
 		
 			.item header
 			{
+				width: 70%;
 				background: #fff;
 				margin: 0;
 				padding: 1em 0 1em 0;
@@ -562,19 +569,24 @@
 					color: rgb(173, 173, 173);
 				}
 
-				.item header > h3 > .proj-links  
+				.item header > .proj-links  
 				{
-					position: absolute;
-					right: 20px;
+					display: flex;
+					flex-direction: row-reverse;
+					margin-right: 20px;
 				}
 
-				.item header > h3 > .proj-links > a  
+				.item header > .proj-links > a  
 				{
-					font-size: .8em;
-					margin-bottom: 0%;
+					font-size: 1.5em;
 					text-decoration: none;
 					border: none;
-					margin-top: 5px;
+					margin-left: 10px;
+				}
+
+				.item header .proj-description {
+					color: rgb(139 138 138 / 50%);
+					margin-bottom: 10px;
 				}
 
 				.item header p
